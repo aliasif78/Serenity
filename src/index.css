@@ -29,3 +29,11 @@ body {
 *::-webkit-scrollbar {
   width: 8px;
 }
+
+*::-webkit-progress-value {
+  background: black;
+}
+
+*::-webkit-progress-bar {
+  background: #c4c4c4; /* Lighter color for the background line */
+}
